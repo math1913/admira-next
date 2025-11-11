@@ -1,21 +1,23 @@
 import React from "react";
+import "./Styles/UseCases.css";
 
 function UseCases() {
   return (
-    <section className="usecases">
+    <section id="usecases" className="usecases">
       <h2>Casos de uso</h2>
-      <div>
-        <div>
-          <h3>Afluencia y conversión</h3>
-          <p>Mide entradas y mejora la tasa de compra.</p>
+      <p>Cómo Admira Next transforma datos en resultados:</p>
+      <div className="cases">
+        <div className="case">
+          <h3>Retail</h3>
+          <p>Optimiza tiendas según tráfico y mejora la conversión.</p>
         </div>
-        <div>
-          <h3>Mapas de calor</h3>
-          <p>Optimiza la disposición de productos en tienda.</p>
+        <div className="case">
+          <h3>Centros comerciales</h3>
+          <p>Analiza flujos, permanencia y eventos en tiempo real.</p>
         </div>
-        <div>
-          <h3>Staffing</h3>
-          <p>Ajusta horarios al flujo real de visitantes.</p>
+        <div className="case">
+          <h3>Restauración</h3>
+          <p>Evalúa afluencia, ocupación y rotación de mesas.</p>
         </div>
       </div>
     </section>

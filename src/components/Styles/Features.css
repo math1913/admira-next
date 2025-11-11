@@ -1,0 +1,26 @@
+.features {
+  padding: 5rem 1rem;
+  text-align: center;
+  background: #f8f9fb;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.feature-card h3 {
+  color: #004aad;
+  margin-bottom: 0.5rem;
+}
